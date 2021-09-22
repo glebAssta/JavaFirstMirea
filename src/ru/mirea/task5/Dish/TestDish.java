@@ -1,4 +1,8 @@
-package ru.mirea.task5;
+package ru.mirea.task5.Dish;
+
+import ru.mirea.task5.Dish.Cup;
+import ru.mirea.task5.Dish.Fork;
+import ru.mirea.task5.Dish.Plate;
 
 import java.lang.*;
 

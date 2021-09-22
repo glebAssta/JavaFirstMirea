@@ -1,4 +1,4 @@
-package ru.mirea.task5;
+package ru.mirea.task5.Dish;
 
 import java.lang.*;
 public abstract class Dish {
