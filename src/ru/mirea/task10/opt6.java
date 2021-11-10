@@ -5,10 +5,10 @@ public class opt6 {
 
         if (n < 2) {
             return false;
-        } // Базовый случай
+        }
         else if (n == 2) {
             return true;
-        } // Базовый случай
+        }
         else if (n % i == 0) {
             return false;
         }
@@ -19,6 +19,6 @@ public class opt6 {
         }
     }
     public static void main(String[] args) {
-        System.out.println(recursion(18, 2));
+        System.out.println(recursion(11, 2));
     }
 }

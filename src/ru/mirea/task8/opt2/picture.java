@@ -15,6 +15,7 @@ public class picture extends JFrame{
         this.startWindow();
     }
 
+
     void startWindow(){
         controls = new Container();
         controls = getContentPane();

@@ -6,7 +6,6 @@ public class task8 {
             return "YES";
         } else {
             if (s.substring(0, 1).equals(s.substring(s.length() - 1, s.length()))) {
-                // Базовый случай
                 if (s.length() == 2) {
                     return "YES";
                 }
@@ -17,6 +16,6 @@ public class task8 {
         }
     }
     public static void main(String[] args) {
-        System.out.println(recursion("radar"));
+        System.out.println(recursion("radak"));
     }
 }
