@@ -4,7 +4,7 @@ import java.io.*;
 public class FileOutput {
     public static void main(String[] args) throws IOException
     {
-        File file = new File("X:\\МИРЭА\\Java_pr\\JavaFirstMirea\\src\\ru\\mirea\\task15\\testfile.txt");
+        File file = new File("C:\\Users\\glebo\\OneDrive\\Рабочий стол\\3 семак\\прога\\file.txt");
         FileInputStream fileInputStream = new FileInputStream(file);
 
         int i;

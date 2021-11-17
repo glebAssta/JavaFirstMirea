@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class AppendFile {
     public static void main(String[] args) throws IOException
     {
-        File file = new File("X:\\МИРЭА\\Java_pr\\JavaFirstMirea\\src\\ru\\mirea\\task15\\testfile.txt");
+        File file = new File("C:\\Users\\glebo\\OneDrive\\Рабочий стол\\3 семак\\прога\\file.txt");
         FileOutputStream fileOutputStream = new FileOutputStream(file, true);
 
         String input;
