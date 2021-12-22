@@ -17,6 +17,8 @@ public class task1_full {
         var2(arr);
         System.out.println("4) ");
         var4(arr);
+        System.out.println("5) ");
+        var5(n);
     }
 
     public static void var1(int[] arr){
@@ -50,5 +52,13 @@ public class task1_full {
     public static void var4(int[] arr){
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
+    }
+
+    public static void var5(int n){
+        int s = 1;
+        for(int i=1; i <= n; i++)  {
+            s *= i;
+        }
+        System.out.println(s);
     }
 }
